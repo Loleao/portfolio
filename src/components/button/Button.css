@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.button{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 2px black solid;
+    cursor: pointer;
+}
+
+.button.primary{
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border:  2px blue solid;
+}
+
+.button.primary:hover{
+    background: rgb(3, 3, 192);
+    color: white;
+    font-weight: bold;
+    border:  2px rgb(3, 3, 192) solid;
+}
+
+.button.secondary{
+    background: white;
+    color: blue;
+    font-weight: bold;
+    border:  2px blue solid;
+}
+
+.button.secondary:hover{
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border:  2px blue solid;
+}
