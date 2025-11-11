@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-section{
+    border: 1px black solid;
+    text-align: center;
+    height: 600px;
+
+}
+
+.content-container{
+    padding: 206px;
+    border: 1px black solid;
+}
+
+.content-container h1{
+    font-size: 50px;
+}
+
+.content-container h2{
+    font-size: 50px;
+    color: rgb(20, 89, 219);
+}
+
+.content-container p{
+    font-size: 20px;
+    color: gray;
+}
+
+.button-container{
+    padding: 30px;
+    display: flex;
+    border: 1px black solid;
+    justify-content: center;
+    gap: 10px;
+}
