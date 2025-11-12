@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.about-section{
+    border: 1px black solid;
+}
+
+.about-title-container{
+    border: 1px black solid;
+    text-align: center;
+    font-size: 35px;
+}
+
+.about-title-line{
+    background-color: blue;
+    height: 3px;
+    justify-content: center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.about-content-container{
+    border: 1px black solid;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about-description{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.about-paragraph{
+    border: 1px black solid;
+    margin: 10px;
+    width: 65%;
+    font-size: 20px;
+    color: gray;
+}
+
+.about-paragraph b{
+    color: black;
+}
+
+.about-soft-skills{
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.about-skill-box{
+    border: 1px black solid;
+    margin: 20px;
+    color: blue;
+    font-size: 18px;
+}
+
+.about-profile-image-container{
+    border: 1px black solid;
+    margin: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.about-profile-image{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    margin-top: 85px;
+    border: 15px #e5e7eb solid;
+}
