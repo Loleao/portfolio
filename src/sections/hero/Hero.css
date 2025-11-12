@@ -4,35 +4,34 @@
 }
 
 .hero-section{
-    border: 1px black solid;
+    border: 1px red solid;
     text-align: center;
-    height: 600px;
-
 }
 
-.content-container{
+.hero-content-container{
+    height: 200px;
     padding: 206px;
-    border: 1px black solid;
+    border: 1px blue solid;
 }
 
-.content-container h1{
+.hero-content-container h1{
     font-size: 50px;
 }
 
-.content-container h2{
+.hero-content-container h2{
     font-size: 50px;
     color: rgb(20, 89, 219);
 }
 
-.content-container p{
+.hero-content-container p{
     font-size: 20px;
     color: gray;
 }
 
-.button-container{
+.hero-button-container{
     padding: 30px;
     display: flex;
-    border: 1px black solid;
+    border: 1px red solid;
     justify-content: center;
     gap: 10px;
 }
