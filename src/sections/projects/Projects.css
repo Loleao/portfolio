@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.projects-section{
+    border: 1px black solid;
+    margin-top: 15px;
+}
+
+.projects-title-container{
+    border: 1px black solid;
+    text-align: center;
+}
+
+.projects-title-container h2{
+    font-size: 35px;
+}
+
+.projects-title-container h3{
+    color: gray;
+    font-weight: initial;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+}
+
+.projects-title-bar{
+    background-color: blue;
+    margin-left: 45%;
+    margin-right: 45%;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects-filter-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.projects-filter-button{
+    margin: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e5e7eb;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(94, 89, 89);
+}
+
+.projects-filter-button.active{
+    background-color: blue;
+    color: white;
+}
+
+.projects-filter{
+    border: 1px black solid;
+    margin: 10px;
+}
+
+.projects-cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.projects-button-container{
+    text-align: center;
+}
+
+.projects-show-more-button{
+    background: none;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.projects-show-more-button{
+    border: 2px blue solid;
+    color: blue;
+}
